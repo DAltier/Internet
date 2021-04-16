@@ -1,0 +1,355 @@
+*
+{
+    padding: 0px;
+    margin: 0px auto;
+    font-family: sans-serif;
+}
+
+/*container: header, main_content*/
+div.container {
+    width: 970px;
+    min-height: 900px;
+}
+
+/*header: img, h1, span*/
+div.container div.header {
+    margin-bottom: 10px;
+}
+
+/*header image*/
+div.container div.header img {
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+}
+
+/*header h1*/
+div.container div.header h1 {
+    display: inline-block; 
+    font-size: 48px;
+    margin-left: 105px;
+    margin-top: 35px;
+    font-style: normal;
+}
+
+/*header span*/
+div.container div.header span {
+    color: rgb(34, 101, 158);
+}
+
+/*top banner*/
+div.container .banner {
+    height: 40px;
+    background-image: linear-gradient(rgb(38, 81, 117),rgb(74, 142, 197),rgb(38, 81, 117));
+    color: white;
+    padding: 10px;
+    margin-top: -15px;
+}
+
+/*top banner h1*/
+div.container .banner h1 {
+    margin-left: 5px;
+}
+
+/*main_content*/
+div.container div.main_content {
+    height: 650px;
+    background-image: linear-gradient(rgb(201, 197, 197),rgb(253, 250, 250) 20%); 
+}
+
+div.container div.main_content div.sidebar {
+    display: inline-block;
+    width: 25%;
+    height: inherit;
+}
+
+/*top of side menu*/
+div.container div.main_content div.sidebar div.side_menu {
+    display: inline-block;
+    height: 37%;
+    margin-top: 20px;
+    border-bottom: 1px solid #9a9a9a;
+}
+
+/*top of side menu h4*/
+div.container div.main_content div.sidebar div.side_menu h4 {
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+/*top of side menu h4 span*/
+div.container div.sidebar div.side_menu h4 span {
+    color: rgb(217, 35, 28);
+}
+
+/*top of side menu h5*/
+div.container div.main_content div.sidebar div.side_menu h5 {
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-style: normal;
+}
+
+/*top of side menu h5 span*/
+div.container div.main_content div.sidebar div.side_menu h5 span {
+    color: rgb(34, 101, 158);;
+}
+
+/*top of side menu video button*/
+div.container div.main_content div.sidebar div.side_menu .button_video {
+    background-image: linear-gradient(to bottom , rgb(93, 147, 192), rgb(88, 144, 189));
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(142, 142, 142);
+}
+
+/*top of side menu video button*/
+div.container div.main_content div.sidebar div.side_menu .button_resources {
+    background-image: linear-gradient(to bottom, rgb(236, 169, 78), rgb(239, 122, 0) );
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(142, 142, 142);
+}
+
+/*bottom of side menu*/
+div.container div.main_content div.sidebar div.sidebar_image {
+    display: inline-block;
+    margin-top: 30px;
+    height: 280px;
+    background-image: url("./images/ad_background.png");
+    padding: 10px;
+}
+
+/*bottom of side menu p*/
+div.container div.main_content div.sidebar div.sidebar_image p { 
+    font-size: 21px;
+    color: white;
+    text-align: center; 
+    width: 80%;
+}
+
+/*bottom of side menu img*/
+div.container div.main_content div.sidebar div.sidebar_image img {
+    width: 50%;
+    margin-left: 60px;
+}
+
+/*bottom of side menu button*/
+div.container div.main_content div.sidebar div.sidebar_image .button_image {
+    background-image: linear-gradient(rgb(114, 207, 223),rgb(0, 195, 223));
+    border: none;
+    color: white;
+    padding: 5px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 38px;
+    border-radius: 5px;
+}
+
+/*bottom of side menu button*/
+div.container div.main_content div.sidebar div.sidebar_image button {
+    box-shadow: 2px 2px rgb(36, 41, 46);
+}
+
+/*bottom of side menu button first arrow*/
+div.container div.main_content div.sidebar div.sidebar_image .button_image .arrow_one {
+    font-size: 8px;
+    width: 6px;
+    padding: 0px;
+    display: inline-block;
+    color: rgb(137, 223, 236);
+    margin-right: 0px;
+}
+
+/*bottom of side menu button second arrow*/
+div.container div.main_content div.sidebar div.sidebar_image .button_image .arrow_two {
+    font-size: 8px;
+    width: 6px;
+    padding: 0px;
+    display: inline-block;
+    color: rgb(196, 238, 246);
+    margin-right: 0px;
+}
+
+/*bottom of side menu button third arrow*/
+div.container div.main_content div.sidebar div.sidebar_image .button_image .arrow_three {
+    font-size: 8px;
+    width: 6px;
+    padding: 0px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin-right: 0px;
+}
+
+/*content area*/
+div.container div.main_content div.content {
+    display: inline-block;
+    width: 720px;
+    height: 650px;
+    vertical-align: top;
+}
+
+/*content area header*/
+div.container div.main_content div.content div.main_header {
+    height: 62px;
+    border-bottom: 1px solid black;
+}
+
+/*main content header dns*/
+div.container div.main_content div.content div.main_header div.dns {
+    height: 60px;
+    width: 200px;
+    display: inline-block;
+}
+
+/*main content header dns image*/
+div.container div.main_content div.content div.main_header div.dns img {
+    width: 20px;
+    margin-top: 12px;
+}
+
+/*main content header dns anchor*/
+div.container div.main_content div.content div.main_header div.dns p, a {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: top;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/*main content header contact*/
+div.container div.main_content div.content div.main_header div.contact {
+    height: 60px;
+    width: 235px;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 280px;   
+}
+
+/*main content header contact image*/
+div.container div.main_content div.content div.main_header div.contact img {
+    width: 35px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/*main content header contact info*/
+div.container div.main_content div.content div.main_header div.contact div.contact_info {
+    height:60px;
+    width: 160px;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+/*main content header contact info h2*/
+div.container div.main_content div.content div.main_header div.contact div.contact_info h2 {
+    color: rgb(0, 192, 223);
+} 
+
+/*main content header contact info p*/
+div.container div.main_content div.content div.main_header div.contact div.contact_info p {
+    width: 135px;
+    text-align: right;
+    font-size: 10px;
+}
+
+/*main content h3*/
+div.container div.main_content div.content h3 {
+    color:rgb(34, 101, 158);
+    padding: 5px 0px;
+}
+
+/*main content anchors*/
+div.container div.main_content div.content a {
+    color: rgb(0, 151, 174);
+    margin-top: 2px;
+}
+
+/*main content lists*/
+div.container div.main_content div.content ul, ol {
+    width: 680px;
+    font-size: 14px; 
+}
+
+div.container div.main_content div.content ul li{
+    padding: 4px;  
+}
+
+/*main content unordered list anchors*/
+div.container div.main_content div.content ul a {
+    margin-top: 1px;
+    color: rgb(0, 151, 174);
+}
+
+/*main content ordered list anchors*/
+div.container div.main_content div.content ol a {
+    margin-top: 0px;
+    color:rgb(0, 151, 174);
+}
+
+/*main content ordered list*/
+div.container div.main_content div.content ol li{
+    padding: 5px;  
+}
+
+/*main content server image*/
+div.container div.main_content div.content .server {
+    width: 370px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+/*main content footer*/
+div.container div.main_content div.content div.footer {
+    display: inline-block;
+    width: 700px;
+    height: 100px;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-top: 3px solid rgb(0, 133, 224);
+    border-left: 3px solid rgb(0, 133, 224);
+    border-right: 3px solid rgb(0, 133, 224);
+}
+
+/*main content footer image*/
+div.container div.main_content div.content div.footer img{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 90px;
+    display: inline-block;
+}
+
+/*main content footer text*/
+div.container div.main_content div.content div.footer div.footer_text {
+    margin-top: 10px;
+    display: inline-block;
+    width: 550px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+div.container div.main_content div.content div.footer div.footer_text p {
+    padding: 3px;
+    font-size: 14px;
+}
